@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Stefano Roy Bisignano, Politecnico di Torino, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\black\Desktop\ASEQuoridor\Quoridor Project\Quoridor Project\sample.uvprojx
+Project File Date:  01/06/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling AsciiLib.c...
+compiling sample.c...
+compiling lib_RIT.c...
+compiling IRQ_timer.c...
+compiling IRQ_RIT.c...
+compiling lib_timer.c...
+compiling quoridor.c...
+quoridor\quoridor.c(267): warning:  #223-D: function "sprintf" declared implicitly
+  					sprintf((char *) text_wall, "%d", p_walls[player_turn]);
+quoridor\quoridor.c(326): warning:  #188-D: enumerated type mixed with another type
+  			game_grid[newPos.row][newPos.col] = plyId;					
+quoridor\quoridor.c(337): warning:  #188-D: enumerated type mixed with another type
+  			game_grid[newPos.row][newPos.col] = plyId;		// mi sposto la destinazione
+quoridor\quoridor.c(340): warning:  #111-D: statement is unreachable
+  		return false;
+quoridor\quoridor.c(349): warning:  #188-D: enumerated type mixed with another type
+  		game_grid[newPos.row][newPos.col] = plyId;		// mi sposto la destinazione
+quoridor\quoridor.c(405): warning:  #111-D: statement is unreachable
+  		}break;
+quoridor\quoridor.c(443): warning:  #177-D: variable "endRow"  was declared but never referenced
+  	int trovato, i, j, endRow, startRow, startCol;
+quoridor\quoridor.c(475): warning:  #188-D: enumerated type mixed with another type
+          game_grid_copy[row][col + 2] = plyId;
+quoridor\quoridor.c(483): warning:  #188-D: enumerated type mixed with another type
+          game_grid_copy[row][col - 2] = plyId;
+quoridor\quoridor.c(491): warning:  #188-D: enumerated type mixed with another type
+          game_grid_copy[row + 2][col] = plyId;
+quoridor\quoridor.c(498): warning:  #188-D: enumerated type mixed with another type
+      game_grid_copy[row - 2][col] = plyId;
+quoridor\quoridor.c: 11 warnings, 0 errors
+assembling startup_LPC17xx.s...
+compiling TouchPanel.c...
+"no source": Error:  #5: cannot open source input file "..\ASELab\Modelli\12_sample_GLCD_TP\12_sample_GLCD_TP\TouchPanel\TouchPanel.c": No such file or directory
+..\ASELab\Modelli\12_sample_GLCD_TP\12_sample_GLCD_TP\TouchPanel\TouchPanel.c: 0 warnings, 1 error
+compiling IRQ_button.c...
+compiling lib_button.c...
+compiling funct_joystick.c...
+"no source": Error:  #5: cannot open source input file "..\ASELab\Modelli\09_sample_JOYSTICK\09_sample_JOYSTICK\joystick\funct_joystick.c": No such file or directory
+..\ASELab\Modelli\09_sample_JOYSTICK\09_sample_JOYSTICK\joystick\funct_joystick.c: 0 warnings, 1 error
+compiling core_cm3.c...
+compiling funct_led.c...
+compiling system_LPC17xx.c...
+compiling lib_joystick.c...
+"no source": Error:  #5: cannot open source input file "..\ASELab\Modelli\09_sample_JOYSTICK\09_sample_JOYSTICK\joystick\lib_joystick.c": No such file or directory
+..\ASELab\Modelli\09_sample_JOYSTICK\09_sample_JOYSTICK\joystick\lib_joystick.c: 0 warnings, 1 error
+compiling HzLib.c...
+compiling lib_led.c...
+compiling GLCD.c...
+".\sample.axf" - 3 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\black\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\black\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

@@ -57,16 +57,16 @@ The game board is a 7x7 grid displayed on the LandTiger Board. Players' tokens a
 Below are images illustrating key gameplay elements:
 
 1. **Initial Game Board Setup:**
-   ![Initial Game Board](image1.png)
+   ![Initial Game Board](img/gameplay.png)
    
 2. **Token Movement:**
-   ![Token Movement](image2.png)
+   ![Token Movement](img/moves.jpg)
 
 3. **Barrier Placement:**
-   ![Barrier Placement](image3.png)
+   ![Barrier Placement](img/barrier_placement.jpg)
    
 4. **Barrier Rotation:**
-   ![Barrier Rotation](image4.png)
+   ![Barrier Rotation](img/barrier_rotation.jpg)
 
   
 Enjoy the game and may the best strategist win!

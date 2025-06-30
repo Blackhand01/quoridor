@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an implementation of the Quoridor board game on the LandTiger Board, developed using Keil µVision. Quoridor is an abstract strategy game originally published in 1997 by Gigamic. The goal of this project is to bring the strategic challenge of Quoridor to the LandTiger Board, allowing users to play against each other using a 7x7 wooden square grid displayed on the board's screen. The game has been programmed to utilize the board's input controls, such as the joystick and buttons, to facilitate game interactions.
+This project is an implementation of the Quoridor board game, developed using C and ARM (Cortex-M3) assembly for the LandTiger NXP LPC1768. Quoridor is an abstract strategy game originally published in 1997 by Gigamic. The goal of this project is to bring the strategic challenge of Quoridor to the LandTiger Board, allowing users to play against each other using a 7x7 wooden square grid displayed on the board's screen. The game has been programmed to utilize the board's input controls, such as the joystick and buttons, to facilitate game interactions.
 
 ## Game Rules
 

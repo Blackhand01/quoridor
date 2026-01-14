@@ -4,6 +4,8 @@
 
 This project is an implementation of the Quoridor board game, developed using C and ARM (Cortex-M3) assembly for the LandTiger NXP LPC1768. Quoridor is an abstract strategy game originally published in 1997 by Gigamic. The goal of this project is to bring the strategic challenge of Quoridor to the LandTiger Board, allowing users to play against each other using a 7x7 wooden square grid displayed on the board's screen. The game has been programmed to utilize the board's input controls, such as the joystick and buttons, to facilitate game interactions.
 
+[▶️ Gameplay Demo](img/video.mp4)
+
 ## Game Rules
 
 ### Objective
@@ -59,13 +61,13 @@ Below are images illustrating key gameplay elements:
 1. **Initial Game Board Setup:**
    ![Initial Game Board](img/gameplay.png)
    
-2. **Token Movement:**
+3. **Token Movement:**
    ![Token Movement](img/moves.jpg)
 
-3. **Barrier Placement:**
+4. **Barrier Placement:**
    ![Barrier Placement](img/barrier_placement.jpg)
    
-4. **Barrier Rotation:**
+5. **Barrier Rotation:**
    ![Barrier Rotation](img/barrier_rotation.jpg)
 
   
